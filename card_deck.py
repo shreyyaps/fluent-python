@@ -26,5 +26,5 @@ def order_by(card):
     rank_index = FrenchDeck.ranks.index(card.rank)
     return rank_index * 4 + suit_values.get(card.suit) # type: ignore
 
-for card in sorted(deck, key=order_by):
+for card in sorted(deck, key=order_by): # type: ignore
     print(card)
