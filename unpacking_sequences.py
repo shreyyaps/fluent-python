@@ -21,4 +21,8 @@ path, filename = os.path.split('/home/luciano/.ssh/id_rs')
 
 print(path,"\n", filename)
 
+
+a, b, *c = range(5)
+print(a, b, c)
 a, *packed, b, c = range(5)
+print(a, packed, b, c)

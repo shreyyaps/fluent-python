@@ -1,3 +1,4 @@
 1. internal implementation of list, tuple, array?
 2. how does python interpretor works?
 3. how does python actually work with the OS ?
+4. uv.lock need in ci cd ??
